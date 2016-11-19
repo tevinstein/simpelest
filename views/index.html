@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>simpelest: List as you wish</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/5b4025bff4.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 ">
+                <div id="uncheckedsection">
+                    <img class="center-block" src="http://i.imgur.com/xqS7La6.png" alt="simpelest logo">
+                    <div class="main">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="input" placeholder="Enter a new list.." name="title" class="form-control input-lg">
+                            </div>
+                            <input onclick="addItem()" class="addnew" type="submit" style="display: none" />
+                        </form>
+                        <ul id="uncheckedsectionul">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jquery & jqueryui -->
+    <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

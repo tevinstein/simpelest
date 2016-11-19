@@ -1,0 +1,91 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #f7cea8;
+    background: -moz-linear-gradient(top, #f7cea8 0%, #decdcd 100%);
+    background: -webkit-linear-gradient(top, #f7cea8 0%, #decdcd 100%);
+    background: linear-gradient(to bottom, #f7cea8 0%, #decdcd 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7cea8', endColorstr='#decdcd', GradientType=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#uncheckedsection {
+    margin-top: 30px;
+}
+
+i {
+    color: #eee;
+}
+
+p {
+    font-size: 18px;
+    color: #717171;
+}
+
+.gold {
+    color: #eac325;
+}
+
+.green {
+    color: #80ce83;
+}
+
+.well {
+    background: #fefefe;
+}
+
+.main {
+    margin: 30px 0;
+}
+
+.form-control {
+    background-color: rgba(83, 83, 83, 0.4);
+    border: 0px;
+    color: #f3f3f3;
+}
+
+.input-lg {
+    border-radius: 0px;
+}
+
+input::-webkit-input-placeholder {
+    color: #d6d6d6 !important;
+}
+
+input:-moz-placeholder {
+    color: #d6d6d6 !important;
+}
+
+input::-moz-placeholder {
+    color: #d6d6d6 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #d6d6d6 !important;
+}
+
+.well {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0);
+}
+
+.well-sm {
+    border: 0px;
+}
